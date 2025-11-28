@@ -1,5 +1,5 @@
 # [How's My Driving?](https://obd.ninkuk.com/)
-An OBD-II Trip Analysis Dashboard
+Real-Time Vehicle Health Monitoring System
 
 ## [FAQ](https://obd.ninkuk.com/faq)
 ### What is OBD-II?
@@ -8,7 +8,7 @@ OBD-II (On-Board Diagnostics) is a standard protocol used in modern vehicles to 
 ### How do I collect my own data?
 To collect your own data, you will need an ELM327 Scanner (OBD-II port scanner). This allows you to read and log the real-time information from your vehicle's sensors. Once the trip is complete, export the logged data as CSV and upload it on the home page. It is recommended that you use the setup mentioned below for best results.
 
-For best results follow this tutorial: [Collect Automotive Data](https://www.youtube.com/watch?v=GSSOe9I7roo)
+For best results follow this tutorial:
 <br>
 Scanner: [ELM 327 Bluetooth Scanner](https://a.co/d/9YJaLyI)
 <br>
@@ -23,7 +23,7 @@ Logger App: [Car Scanner ELM OBD2](https://www.carscanner.info/)
 ## Installation
 1. Clone the repository
 ```bash
-git clone https://github.com/Ninkuk/howsmydriving.git
+git clone https://github.com/sayedtaban/OBD-II-Trip-Analysis.git
 cd howsmydriving
 ```
 
@@ -48,9 +48,10 @@ The application should now be running on http://localhost:5000.
 ## Usage
 <img width="600" src="https://user-images.githubusercontent.com/20276256/234079255-337b2d83-4e50-46cb-84f9-da04ef7520da.png">
 
-### Uploading custom CSV (see [Data Collection](https://github.com/Ninkuk/Hows-My-Driving#how-do-i-collect-my-own-data) for more details)
+### Uploading custom CSV (see [Data Collection](https://github.com/sayedtaban/OBD-II-Trip-Analysis#how-do-i-collect-my-own-data) for more details)
 Navigate to the [home page](https://obd.ninkuk.com/) and click on *Browse...*, then select the CSV you want to upload and click *Upload*. Wait for the server to finish processing and then you will be redirected to the trip analysis dashboard.
 ### Demo Mode
 Navigate to the [home page](https://obd.ninkuk.com/) and scroll down to the *or try a demo trip...* section. Here you can see the list of demo trips available for you to explore. Simply click on *Go!* for any of the trip and you will be redirected to the trip analysis dashboard.
 
 ---
+
